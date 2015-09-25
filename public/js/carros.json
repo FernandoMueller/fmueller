@@ -1,0 +1,74 @@
+[
+	{
+		"combustivel": "Flex"
+		, "cor": 7
+		, "imagem": null
+		, "marca": 1
+		, "modelo": "Gol"
+		, "placa": "FFF­5498"
+	}
+	, {
+		"combustivel": "Gasolina"
+		, "cor": 4
+		, "imagem": null
+		, "marca": 1
+		, "modelo": "Fox"
+		,"placa": "FOX­4125"
+	}
+	, {
+		"combustivel": "Alcool"
+		, "cor": 3
+		, "imagem": "http://s2.glbimg.com/1uxiXMGoJz--3xlKCyYaBwzH_oc=/s.glbimg.com/jo/g1/f/original/2013/04/27/fusca222.jpg"
+		, "marca": 1
+		, "modelo": "Fusca"
+		, "placa": "PAI­4121"
+	}
+	, {
+		"combustivel": "Gasolina"
+		, "cor": 4
+		, "imagem": null
+		, "marca": 1
+		, "modelo": "Fox"
+		,"placa": "FOX­4125"
+	}
+	, {
+		"combustivel": "Alcool"
+		, "cor": 3
+		, "imagem": "http://s2.glbimg.com/1uxiXMGoJz--3xlKCyYaBwzH_oc=/s.glbimg.com/jo/g1/f/original/2013/04/27/fusca222.jpg"
+		, "marca": 1
+		, "modelo": "Fusca"
+		, "placa": "PAI­4121"
+	}
+	, {
+		"combustivel": "Gasolina"
+		, "cor": 4
+		, "imagem": null
+		, "marca": 1
+		, "modelo": "Fox"
+		,"placa": "FOX­4125"
+	}
+	, {
+		"combustivel": "Alcool"
+		, "cor": 3
+		, "imagem": "http://s2.glbimg.com/1uxiXMGoJz--3xlKCyYaBwzH_oc=/s.glbimg.com/jo/g1/f/original/2013/04/27/fusca222.jpg"
+		, "marca": 1
+		, "modelo": "Fusca"
+		, "placa": "PAI­4121"
+	}
+	, {
+		"combustivel": "Gasolina"
+		, "cor": 4
+		, "imagem": null
+		, "marca": 1
+		, "modelo": "Fox"
+		,"placa": "FOX­4125"
+	}
+	, {
+		"combustivel": "Alcool"
+		, "cor": 3
+		, "imagem": "http://s2.glbimg.com/1uxiXMGoJz--3xlKCyYaBwzH_oc=/s.glbimg.com/jo/g1/f/original/2013/04/27/fusca222.jpg"
+		, "marca": 1
+		, "modelo": "Fusca"
+		, "placa": "PAI­4121"
+	}
+]

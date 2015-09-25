@@ -1,0 +1,76 @@
+////
+// Default CSS
+////
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+	-o-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+body{
+	font-family: "Open Sans", Verdana, Arial;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+////
+//Colors Default
+////
+
+$color: (
+	corPri: #2980b9
+	, corSec: #2980b9
+	, corTxtPri: #FFF
+	, corTxtSec: #000
+);
+
+$fonts: (
+
+);
+
+////
+// Functions
+////
+@mixin transicao($tempo){
+	-webkit-transition: all $tempo;
+	-moz-transition: all $tempo;
+	-ms-transition: all $tempo;
+	-o-transition: all $tempo;
+	transition: all $tempo;
+}
+
+@mixin rodar($graus){
+	-webkit-transform: rotate($graus);
+	-moz-transform: rotate($graus);
+	-ms-transform: rotate($graus);
+	-o-transform: rotate($graus);
+	transform: rotate($graus);
+}
+
+@mixin gradiente($de, $para){
+	background: $para;
+	background-image: -webkit-gradient(top, from($de), to($para));
+	background-image: -webkit-linear-gradient(top, $de, $para);
+	background-image: -moz-linear-gradient(top, $de, $para);
+	background-image: -o-linear-gradient(top, $de, $para);
+	background-image: linear-gradient(to top, $de, $para);
+}

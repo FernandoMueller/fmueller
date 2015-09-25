@@ -1,0 +1,21 @@
+.pagination
+	margin: 2rem auto
+	text-align: center
+	width: 100%
+
+	li
+		@include transicao(0.8s)
+		border: 1px solid #CCC
+		display: inline-block
+		font: 700 1rem/3rem "Open Sans"
+		padding: 0rem 1rem
+		margin: 0rem 0.5rem
+
+		&:hover,
+		&.active
+			background-color: #EEE
+		
+		a
+			display: block
+			height: 100%
+			width: 100%

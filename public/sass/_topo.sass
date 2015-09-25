@@ -1,0 +1,33 @@
+@import helpers
+html > object
+	display: none
+
+header
+	background-color: map-get($color, corPri)
+	width: 100%
+
+	h1
+		color: map-get($color, corTxtPri)
+		font: 700 3rem/4rem "Open Sans", sans-serif
+		margin: auto
+		padding: 2rem 3rem
+		text-align: center
+		width: 100%
+
+	nav
+		color: map-get($color, corTxtPri)
+		display: block
+		text-align: center
+		width: 100%
+
+		li
+			display: inline-block
+			font: 400 2rem/2rem "Open Sans", sans-serif
+			padding: 0 0.6rem 1rem
+
+		a
+			@include transicao(0.8s)
+			display: block
+			
+			&:hover
+				color: map-get($color, corTxtSec)

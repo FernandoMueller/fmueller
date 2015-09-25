@@ -1,0 +1,35 @@
+<main id="edit" data-ng-controller="EditCtrl as vm">
+	<section>
+		<form ng-submit="vm.editarCarro()">
+			<label>
+				Modelo
+				<input type="text" ng-model="vm.carro.modelo" value="{{vm.carro.modelo}}" required>
+			</label>
+			<label>
+				Cor:
+				<select ng-model="vm.carro.cor" required>
+					<option ng-repeat="cor in vm.cores" value="{{cor.id}}" ng-selected="cor.id == vm.carro.cor">{{cor.title}}</option>
+				</select>
+			</label>
+			<label>
+				Placa:
+				<input type="text" ng-model="vm.carro.placa" value="{{vm.carro.placa}}" required placeholder="AAA-9999">
+			</label>
+			<label>
+				Combustível:
+				<input type="text" ng-model="vm.carro.combustivel" value="{{vm.carro.combustivel}}">
+			</label>
+			<label>
+				Imagem:
+				<input type="text" ng-model="vm.carro.imagem" value="{{vm.carro.imagem}}" placeholder="http://...">
+			</label>
+			<label>
+				Marca:
+				<select ng-model="vm.carro.marca">
+					<option ng-repeat="marca in vm.marcas" value="{{marca.id}}" ng-selected="marca.id == vm.carro.marca">{{marca.title}}</option>
+				</select>
+			</label>
+			<button ng-click="vm.editarCarro()" type="submit" class="btn btn-success">Salvar</button>
+		</form>
+	</section>
+</main>

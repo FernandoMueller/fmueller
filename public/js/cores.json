@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1
+		, "title": "Preto"
+	}
+	, {
+		"id": 2
+		, "title": "Branco"
+	}
+	, {
+		"id": 3
+		, "title": "Vermelho"
+	}
+	, {
+		"id": 4
+		, "title": "Prata"
+	}
+	, {
+		"id": 5
+		, "title": "Cinza"
+	}
+	, {
+		"id": 6
+		, "title": "Amarelo"
+	}
+	, {
+		"id": 7
+		, "title": "Azul"
+	}
+]

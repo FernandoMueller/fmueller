@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1
+		, "title": "Volkswagen"
+		, "imagem": "http://img2.wikia.nocookie.net/__cb20120721121532/logopedia/images/1/1a/Volkswagen_Logo.png"
+		
+	}
+	, {
+		"id": 2
+		, "title": "Fiat"
+		, "imagem": "http://www.enseadadasgarcas.com.br/~garcas/imagens/conteudo/images/LOGO-FIAT.png"
+		
+	}
+	, {
+		"id": 3
+		, "title": "Chevrolet"
+		, "imagem": "https://upload.wikimedia.org/wikipedia/nah/thumb/3/34/Chevrolet_logo.png/615px-Chevrolet_logo.png"
+		
+	}
+]

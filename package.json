@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "bla",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoMueller/fmueller.git"
+  },
+  "author": "fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoMueller/fmueller/issues"
+  },
+  "homepage": "https://github.com/FernandoMueller/fmueller#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
